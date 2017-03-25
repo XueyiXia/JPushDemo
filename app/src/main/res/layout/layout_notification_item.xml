@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_notification_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/logo_qq"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="夏学艺"
+            android:layout_toRightOf="@id/iv_logo"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"/>
+
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今天去泰国咯"
+            android:layout_below="@id/title"
+            android:layout_toRightOf="@id/iv_logo"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#999999"/>
+    </RelativeLayout>
+
+</LinearLayout>
