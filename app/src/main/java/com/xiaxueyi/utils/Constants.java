@@ -13,6 +13,6 @@ public class Constants {
     public static final String MESSAGE_FLAG="MESSAGE_FLAG";
 
 
-    public static final String APP_ID = "wx3759b71cfa877438";   //微信分享的ID
+    public static final String APP_ID = "";   //微信分享的ID
 }
 
